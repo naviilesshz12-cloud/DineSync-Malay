@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { menuItems as initialMenuItems } from '@/lib/data';
+import { menuItems as initialMenuItems, demoReservations } from '@/lib/data';
 import Link from 'next/link';
 import { createClient } from '@/lib/supabase-browser';
 import { formatDistanceToNow } from 'date-fns';

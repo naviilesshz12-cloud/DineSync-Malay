@@ -172,3 +172,9 @@ export const restaurantInfo = {
   email: 'hello@dinesync.my',
   instagram: '@dinesync.my',
 };
+
+export const demoReservations = [
+  { id: 'res-1', name: 'Zahirul Azim', party: 4, date: '2026-04-24', time: '19:30', status: 'confirmed' },
+  { id: 'res-2', name: 'Sarah Johnson', party: 2, date: '2026-04-24', time: '20:00', status: 'pending' },
+  { id: 'res-3', name: 'Dato\' Sri Hamzah', party: 8, date: '2026-04-25', time: '20:30', status: 'confirmed' },
+];
